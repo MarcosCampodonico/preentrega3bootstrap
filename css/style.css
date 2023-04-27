@@ -10719,5 +10719,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.giro {
+  transition: all 1s;
+}
+.giro:hover {
+  transform: rotate(360deg);
+}
+
+a:hover {
+  transition: all 1s;
+  transform: scale(0.8, 0.8);
+  color: aliceblue;
+  background-color: darksalmon;
+  border-radius: 10px;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, #f7faf7, #787a78);
+}
+
+header {
+  background-image: linear-gradient(to top, #f7faf7, #787a78);
+}
 
 /*# sourceMappingURL=style.css.map */
